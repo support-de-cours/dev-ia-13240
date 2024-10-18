@@ -1,0 +1,4 @@
+{
+    "env": "dev",
+    "endpoint": "localhost:8080/api/"
+}

@@ -1,0 +1,24 @@
+Vérifier l’installation de NVM:
+$ nvm -v
+
+
+
+Installation de NVM
+Mac / Linux:
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+Windows: https://github.com/coreybutler/nvm-windows#installation--upgrades
+
+
+
+Liste des versions de NodeJS
+$ nvm ls-remote
+
+
+Upgrade / Downgrade NodeJS
+$ nvm install 18.19.1
+
+
+
+Forcer l'utilisation de la version de NodeJS
+$ nvm use 18.19.1

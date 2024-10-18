@@ -1,0 +1,18 @@
+<%- include('../../layout/header.html') -%>
+
+<h1>Bienvenue sur la page d'accueil !</h1>
+
+<div>Name : <%= username %></div>
+
+<hr>
+
+<h2>Liste de fruits</h2>
+<ul>
+
+    <% for (let i = 0; i < fruits.length; i++) { %>
+        <li><%= fruits[i] %></li>
+    <% } %>
+
+</ul>
+
+<%- include('../../layout/footer.html') -%>

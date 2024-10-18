@@ -1,0 +1,19 @@
+Une application NodeJS SSR
+
+Module / Librairie
+- HTTP 
+- Express (pour le routage)
+- Bootstrap (pour le CSS Front)
+
+Routes 
+- Accueil                           /
+- Qui sommes nous                   /about
+- Contact                           /contact
+- Inscription                       /register
+- Connexion                         /login
+
+- Livres (tous les livres)          Index       /books 
+- Ajout d'un livre                  Create      /book
+- Livre (détails d'un livre)        Read        /book/42
+- Modifier un livre                 Update      /book/42/edit
+- Suppression d'un livre            Delete      /book/42/delete

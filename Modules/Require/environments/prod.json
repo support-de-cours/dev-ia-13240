@@ -1,0 +1,4 @@
+{
+    "env": "prod",
+    "endpoint":"https://api.monsite.com/v2/"
+}
